@@ -1,0 +1,18 @@
+{
+  "appName": {
+    "message": "Email Page as Text (and speech) My Orator",
+    "description": "The name of the extension."
+  },
+  "appNameShort":{
+    "message": "My Orator",
+    "description": "The short name."
+  },
+  "appDescription": {
+    "message": "Play any article on your Echo or phone with no distractions.",
+    "description": "The description of the extension."
+  },
+  "btnTooltip": {
+    "message": "My Orator",
+    "description": "Tooltip for the button."
+  }
+}

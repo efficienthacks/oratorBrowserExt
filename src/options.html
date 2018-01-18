@@ -1,0 +1,106 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <link href="styles/options.css" rel="stylesheet">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Options & Settings</title>
+</head>
+<body class="wrap">
+  <div class="grid">
+    <div class="unit whole center-on-mobiles">
+      <div class="heading">
+        <h1>My Orator</h1>
+        <p class="lead">Options</p>  
+      </div>
+    </div>
+  </div>
+  
+  <section class="content">
+    <div class="grid">
+      <div class="unit whole center-on-mobiles">
+        <!--<div class="option">
+          <h5>Popup color</h5>  
+          <div class="radio-group">
+            <label><input class="js-radio white" type="radio" name="radio" value="white">White</label>
+            <label><input class="js-radio beige" type="radio" name="radio" value="beige">Beige</label>
+            <label><input class="js-radio lavender" type="radio" name="radio" value="lavender">Lavender</label>
+          </div>
+          
+        </div>-->
+        <div class="option">
+          <div class="action-container unauthenticated">
+            <button id="login-btn" class="btn btn-primary">Link Your Account</button>
+            <p>
+              Account linking helps verify your email address and is required to prevent other people from using this service to spam.
+              You'll be taken to page where you can sign in with Google.  
+              (An Orator account is automatically created if you have yet to sign up.)
+              </p>
+            <div id="refreshPageMsg"></div>
+          </div> 
+
+          <div class="action-container authenticated">
+          You are logged in as: <div id="oratorName"></div>
+            <button id="logout-btn" class="btn btn-primary">Sign out</button>
+          </div> 
+          <br/>
+          
+        </div>
+        <!--div class="option authenticated">
+          <h5>Confirm before saving current page to playlist</h5>  
+          <div class="radio-group">
+            <label><input class="js-radio" type="radio" name="radio" value="yes">Yes</label>
+            <label><input class="js-radio" type="radio" name="radio" value="no">No</label>
+          </div>
+        </div>
+        <div class="option authenticated">
+          <h5>Automatically Convert to Audio</h5>  
+          <div class="radio-group">
+            <label><input class="js-radio" type="radio" name="radio" value="yes">Yes</label>
+            <label><input class="js-radio" type="radio" name="radio" value="no">No</label>
+          </div>
+        </div>
+        <div class="option authenticated">
+          <h5>Email Saved URL</h5>  
+          <div class="radio-group">
+            <label><input class="js-radio" type="radio" name="radio" value="yes">Yes</label>
+            <label><input class="js-radio" type="radio" name="radio" value="no">No</label>
+          </div>
+        </div>-->
+        <div class="option">
+          <h5>Tips</h5>
+          <ul>
+            <li><strong>Press Ctrl + Space</strong> to open/close the pop up for this extension.</li>
+            <li>If you want to My Orator to grab the current page without a prompt:  <strong>Press Ctrl + Shift + Space</strong>.</li>
+            <div class="chrome"><li>You can reassign this shortcut in chrome://extensions (scroll to the bottom), click on Keyboard shortcuts or <a href="chrome://extensions/configureCommands">click here</a></li></div>
+            </ul>
+        </div>
+        <div class="option">
+          <h5>Misc.</h5>
+          <ul>
+            <li>Items already in your playlist will be emailed to you, but won't be added to your Orator playlist.</li>
+            <li>Articles that aren't Medium.com may not appear properly formatted in your inbox.</li>
+          </ul>
+        </div>
+        <div class="option">
+          <em class="text-muted">Visit <a href="https://orator.azurewebsites.net/Articles">My Orator</a> to see your entire playlist...</em>
+        </div> 
+      </div>
+      
+    </div>
+  </section>
+  
+  
+  <footer class="main-footer">
+    <div class="grid">
+      <div class="unit whole center-on-mobiles">
+        <p class="text-center text-muted">
+          Made with haste by @efficientHacks - Please report bugs at <a href="https://facebook.com/myOrator">facebook.com/myOrator</a>
+        </p>
+      </div>
+    </div>
+  
+  </footer>
+  <script src="scripts/options.js"></script>
+</body>
+</html>
